@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pythonproject18"
+version = "0.1.0"
+description = ""
+authors = ["Dinmukhammed <arystambekdimash005@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.6"
+djangorestframework = "^3.14.0"
+pillow = "^10.1.0"
+django-cors-headers = "^4.3.0"
+django-filter = "^23.3"
+drf-yasg = {extras = ["validation"], version = "^1.21.7"}
+drf-spectacular = {extras = ["sidecar"], version = "^0.26.5"}
+djangorestframework-simplejwt = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
